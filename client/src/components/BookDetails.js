@@ -6,7 +6,6 @@ const BookDetails = ({ bookId, data }) => {
   const { book } = data;
 
   const displayBookDetails = () => {
-    console.log(book);
     if (book) {
       return (
         <div>
